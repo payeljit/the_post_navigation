@@ -1,0 +1,8 @@
+// add this to your page (not function.php)
+the_post_navigation( array(
+            'prev_text'                  => __( 'prev chapter: %title' ),
+            'next_text'                  => __( 'next chapter: %title' ),
+            'in_same_term'               => true,
+            'taxonomy'                   => __( 'post_tag' ),
+            'screen_reader_text' => __( 'Continue Reading' ),
+        ) );
